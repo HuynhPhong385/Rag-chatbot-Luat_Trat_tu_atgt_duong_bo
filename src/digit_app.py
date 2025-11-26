@@ -5,8 +5,9 @@ import numpy as np
 import threading
 # Import các module đã refactor
 try:
-    from src.model_trainer import ModelTrainer
-    from src.drawing_canvas import DrawingCanvas
+        # Dòng 8, 9 sửa thành:
+    from .model_trainer import ModelTrainer
+    from .drawing_canvas import DrawingCanvas
 except ImportError:
     # Xử lý nếu các file không được đặt trong cùng thư mục
     print("Lỗi Import: Đảm bảo 'model_trainer.py' và 'drawing_canvas.py' nằm trong cùng thư mục.")
@@ -17,7 +18,7 @@ class DigitRecognizerApp:
     def __init__(self, master):
         self.master = master
         master.title("Ứng Dụng Nhận Diện Số Viết Tay")
-        logo = PhotoImage(file="Logo_Handwritten.png")
+        logo = PhotoImage(file='assets/logo.png')
         master.iconphoto(False, logo)
         master.configure(bg="#f0f0f0") 
         master.resizable(False, False)
