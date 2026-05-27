@@ -1,10 +1,10 @@
-# 🤖 Rag-chatbot-Luat_Trat_tu_atgt_duong_bo
+# Rag-chatbot-Luat_Trat_tu_atgt_duong_bo
 
 Dự án thử nghiệm xây dựng một Chatbot hỏi đáp theo kiến trúc **RAG cơ bản (Core RAG)** dựa trên dữ liệu văn bản **Luật Trật tự, An toàn giao thông đường bộ Việt Nam (Luật số 36/2024/QH15)**.
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 - **Framework:** LangChain
 - **LLM:** Gemini 2.5 Flash (Google AI Studio)
 - **Embedding Model:** `vietnamese-bi-encoder` (BKAI)
@@ -12,7 +12,7 @@ Dự án thử nghiệm xây dựng một Chatbot hỏi đáp theo kiến trúc 
 
 ---
 
-## 📂 Cấu trúc thư mục
+## Cấu trúc thư mục
 ```text
 Rag-chatbot-Luat_Trat_tu_atgt_duong_bo/
 │
