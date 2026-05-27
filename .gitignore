@@ -1,7 +1,20 @@
+# Môi trường ảo và cấu hình editor
 .venv/
 venv/
 .vscode/
+
+# Bộ nhớ đệm Python
 __pycache__/
 *.pyc
-vector_store/
+
+# Tệp tin cấu hình bảo mật
 .env
+
+# KHÔNG đẩy thư mục chứa tài liệu luật lên GitHub
+papers/
+
+# KHÔNG đẩy file code chạy thử/nháp lên GitHub
+example.py
+
+# Nếu sau này bạn chạy FAISS và lưu index xuống máy, chặn luôn file đó ở đây
+faiss_index/
